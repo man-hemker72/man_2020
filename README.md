@@ -4,14 +4,14 @@
 pkg update && pkg upgrade
 pkg install python2
 pkg install git
-git clone https://github.com/vrhasya/UNIS3X
+git clone https://github.com/man-hemker72/man_2020
 ```
 
 ## Run Script
 ```
-cd UNIS3X
+cd man_2020
 ls
-python2 UNIS3X.py
+python2 2020.py
 ```
 
 ## Contact
