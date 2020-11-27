@@ -158,9 +158,9 @@ def menu():
 	os.system("clear")
 	print logo
 	print "\033[1;97m ══════════════════════════════════════════"
-	print "\033[1;97m [\033[1;91m•\033[1;97m•\033[1;97m]\033[1;97m Nama Akun Facebook Anda\033[1;97m     ·\033[1;97m "+nama
-	print "\033[1;97m [\033[1;91m•\033[1;97m•\033[1;97m]\033[1;97m User ID Akun Anda\033[1;97m       ·\033[1;97m "+id
-	print "\033[1;97m [\033[1;91m•\033[1;97m•\033[1;97m]\033[1;97m Tanggal Lahir Facebook Anda\033[1;97m ·\033[1;97m "+ a['birthday']
+	print "\033[1;97m [\033[1;91m•\033[1;97m•\033[1;97m]\033[1;97m Nama Akun Facebook Anda:\033[1;97m·\033[1;97m "+nama
+	print "\033[1;97m [\033[1;91m•\033[1;97m•\033[1;97m]\033[1;97m User ID Akun Anda:\033[1;97m·\033[1;97m "+id
+	print "\033[1;97m [\033[1;91m•\033[1;97m•\033[1;97m]\033[1;97m Tanggal Lahir Facebook Anda:\033[1;97m·\033[1;97m "+ a['birthday']
 	print "\033[1;97m ══════════════════════════════════════════"
 	print "\033[1;97m [\033[1;97m01\033[1;97m]\033[1;97m\033[1;97m Crack ID Indonesia"
 	print "\033[1;97m [\033[1;97m02\033[1;97m]\033[1;97m\033[1;97m Crack ID Group"
