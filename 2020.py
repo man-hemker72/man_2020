@@ -61,13 +61,13 @@ def jalan(z):
 #########LOGO#########
 logo = """
 \033[1;97m ╔══════════════♤═♤■♤═♤════════════════╗
-\033[1;97m ■ Ｈｉｌｍａｎ_ＭａｕｌａｎａＸＤ.                                ■     
-           ● KarawangCyberTeam\033[1;97m.                              ●
-\033[1;97m ■ Team : Bacot Broterhood Neverdie                          ■                                ║    
+\033[1;97m  Ｈｉｌｍａｎ_ＭａｕｌａｎａＸＤ.                                     
+             KarawangCyberTeam\033[1;97m.                              
+\033[1;97m  Team : Bacot Broterhood Neverdie                                                          ║    
 \033[1;97m ╚═════════════════════════════════════╝
 \033[1;97m ╔═════════════════════════════════════╗
-\033[1;97m ║  Author : Hilman_Maulana                                  ●
-\033[1;97m ║  Github : https://github.com/Man-hemker72.                ●
+\033[1;97m ║ Author : Hilman_Maulana                                  
+\033[1;97m ║ Github : https://github.com/Man-hemker72.                
 \033[1;97m ╚═════════════════════════════════════╝ """
 
 def tik():
